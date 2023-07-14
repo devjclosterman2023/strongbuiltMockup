@@ -1,0 +1,129 @@
+#container {
+    background-color: #f8f8f8;
+    height: 140px;
+    width: 100%;
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.headerLogo {
+    padding-top: 10px;
+    height: 120px;
+    width: 345;
+    left: 200px;
+}
+
+.right-align {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.right-align button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right-align button:hover {
+    opacity: 0.7;
+}
+
+/* areas css */
+.area {
+    display: flex;
+    flex-direction: column;
+}
+
+.area a {
+    text-decoration: none;
+}
+
+.area a:hover {
+   cursor: pointer;
+}
+
+.area a:visited {
+    color:aqua;
+}
+
+.btn {
+    left: 1219;
+    background-color: #e14f53;
+    width: 252px;
+    height: 65px;
+    color: #f8f8f8;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.veteranpic {
+    width: 219px;
+    height: 78px;
+}
+
+/* make word home dissappear */
+.site-branding {
+    display: none;
+}
+
+.entry-title {
+    display: none;
+}
+
+#site-navigation > .menu-primary-menu-container > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    background-color: #0f4b7d;
+    justify-content: center;  
+    height: 62px;
+    font-weight: bolder;  
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -24px;
+}
+
+#site-navigation .menu-primary-menu-container > ul a {
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 1000px) {
+    .right-align {
+        display: none;
+    }
+    .main-navigation {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .right-align {
+        display: none;
+    }
+    .main-navigation {
+        display: none;
+    }
+}
+
+/* @media  */
+
+@media screen and (max-width: 950px) {
+    .site-header .text-overlay {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .site-header .text-overlay {
+        font-size: 12px;
+    }
+}

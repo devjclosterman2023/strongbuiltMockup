@@ -1,0 +1,143 @@
+
+.flexbox > .wp-block-group__inner-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     justify-content: space-around;
+     margin-top: 80px;
+     color: #0f4b7d;
+     font-size: large;
+     font-weight: bolder;
+     flex-wrap: wrap;
+     /* gap: 30px auto; */    
+}
+
+.flexbox > .wp-block-group__inner-container > div {
+    display: flex;
+    flex-direction: row;
+    background-color: #a7d0df;
+    height: 345px;
+    width: 450px;
+    padding-top: 45px;
+    margin: 5px 5px 5px 5px;
+}    
+
+.flexbox > .wp-block-group__inner-container > div:hover {
+   background-color: #0f4b7d;
+   color:#a7d0df;
+}
+
+.entry-content > hr {
+    width: 100%;
+    max-width: 90%;
+    height: 10px;
+    background-color: #0f4b7d;
+    margin-top: 80px;
+    margin-bottom: 80px;
+} 
+
+.attributes > div {
+    display: none;
+}
+
+.readmorebtn {
+   padding-top: 70px;
+}
+
+.wp-block-columns > .custombox {
+    background-color: #0f4b7d;
+    height: 463px;
+    color: #f8f8f8;
+    padding-top: 70px;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.wp-block-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custombox > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-grow: 1; */
+    width: 100%
+}
+
+.has-text-align-left {
+    font-size: 25px;
+    font-weight: 700;
+    border-right: 6px solid #FFFFFF;
+    padding-left: 410px;
+    padding-top: 80px;
+}
+
+.testimonials > .wp-block-group__inner-container {
+    background-image: url("/wp-content/uploads/2023/07/Group-30.png");
+    background-position: cover;
+    background-repeat: none;
+}
+
+.wp-block-group.is-layout-constrained i {
+   display: flex;
+   justify-content: center;
+   display: inline-block;
+   text-align: center;
+   flex-wrap: wrap;
+}
+
+.kt-row-column-wrap {
+    border: 3px dashed #707070;
+    border-radius: 20px;
+    opacity: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+
+.gf_browser_unknown {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #0f4b7d;
+    color:#f8f8f8;
+    margin: 0 auto;
+    max-width: 95%;
+    text-align: center;
+    height: 200px;
+}
+
+#gform_submit_button_1 {
+    background-color: #e14f53;
+    color:#f8f8f8;
+    font-weight: bold;
+    border-radius: 10px;
+    opacity: 1;
+    width: 166px;
+    height: 47px;
+    border: none;
+}
+
+.owl-stage {
+    margin-top: 20px;
+    /* margin-bottom: 80px; */    
+}
+
+/* .owl-prev {
+    background-image: url('/wp-content/uploads/2023/07/Group-39.jpg');
+} */
+
+.halftime {
+     /* width: 200px;  Adjust to your desired width */
+    /* height: 200px; Adjust to your desired height */
+    /* background: linear-gradient(to bottom right, blue 50%, transparent 50%);
+    background-size: 200% 200% */
+}
+
+/* ////////////////////////////////////////////////////////// */
