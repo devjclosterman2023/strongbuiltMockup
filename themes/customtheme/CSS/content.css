@@ -70,13 +70,14 @@
     width: 100%
 }
 
-.has-text-align-left {
+
+.wp-block-column .has-text-align-left {
     font-size: 25px;
     font-weight: 700;
     border-right: 6px solid #FFFFFF;
     padding-left: 410px;
     padding-top: 80px;
-}
+} 
 
 .testimonials > .wp-block-group__inner-container {
     background-image: url("/wp-content/uploads/2023/07/Group-30.png");
@@ -133,11 +134,11 @@
     background-image: url('/wp-content/uploads/2023/07/Group-39.jpg');
 } */
 
-.halftime {
+/* .halftime {
      /* width: 200px;  Adjust to your desired width */
     /* height: 200px; Adjust to your desired height */
     /* background: linear-gradient(to bottom right, blue 50%, transparent 50%);
-    background-size: 200% 200% */
-}
+    background-size: 200% 200% 
+} */
 
 /* ////////////////////////////////////////////////////////// */
