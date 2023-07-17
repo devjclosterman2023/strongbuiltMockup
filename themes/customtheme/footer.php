@@ -25,21 +25,32 @@
 			</div>
 		</div>
 		<div class="bottom-section">
-			<div class="section"> <h3>Tucson</h3>
+			<div class="section"> 
+			<div class="spacing">	
+			<h3>Tucson</h3>
 			<h6>4759 S Butterfield Dr<span>(520)-263-8275</span></h6> 
 			<h6>Tucson, AZ 85714<span>24 x 7 * 365</span></h6> 
 			<h3>Arizona License</h3>
 			<h5>AZROC: 749856. 836478, 92746, <br> 72645, 12536</h5>
 		    </div>
+            </div>
 
-			<div class="section"><h3>Albuquerque</h3>
+			<div class="section">
+			<div class="spacing">
+			<h3>Albuquerque</h3>
 			<h6>3540 Pan America Freeway NE <span>(505)-257-6268</span></h6>
             <h6>Suite E Albuquerque, NM 87107 <span>24 x 7 * 365</span></h6>
 			<h3>New Mexico License</h3>
-			<h5>401693</h5>
+			<h6>401693</h6>
 		    </div>
-			<div class="section">section 6</div>
+			<div class="section">
+				<img src="/wp-content/uploads/2023/07/facebook.png" alt="">
+				<img src="/wp-content/uploads/2023/07/facebook.png" alt="">
+				<img src="/wp-content/uploads/2023/07/facebook.png" alt="">
+				<img src="/wp-content/uploads/2023/07/facebook.png" alt="">
+			</div>
 		    </div>
+			</div>
 		</div> <!-- max -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
