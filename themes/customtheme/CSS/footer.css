@@ -4,21 +4,42 @@
 
 #colophon {
     background-color: #0f4b7d;
+    padding: 20px;   
 }
 
-.logowords {
+.max {
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+.top-section,
+ .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    color: #f8f8f8;
+    width: 100%;
+ }
+
+ .section {
+    flex: 1;
+    /* text-align: center; */
+ }
+
+
+
+/* .logowords {
     display: flex;
     flex-direction: row;
     /* max-width: 770px; */
-    color: #f8f8f8;
+    /* 
     font-size: 30px;
     padding-left: 200px;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */ 
 
-.logowords > h4 {
+/* .logowords > h4 {
     padding-left: 20px;
-}
+} */
 
 .footernav {
     color:#f8f8f8;
