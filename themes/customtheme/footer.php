@@ -11,50 +11,70 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="max">
-		<div class="top-section">
-			<div class="section"><img src="/wp-content/uploads/2023/07/cropped-StrongBuilt_USA_Logo_Electric-2048x711-1.png" alt="Picture of Strongbuilt Logo" class="headerLogo"> 
-            </div>
-			<div class="section"><h4>The Most Comfortable <br> Call You'll Ever Make</h4></div>
-			<div class="section">
-			 <a href="#"></a>Blog
-		     <a href="#"></a>About
-		     <a href="#"></a>Contact
-		     <a href="#"></a>Service Areas 
+<footer id="colophon" class="site-footer">
+	<div class="w-80">
+
+		<div id="footer_nav">
+			<?php the_custom_logo(); ?>
+			<div>
+				<h2 class="font-40" id="footer-quote">The Most Comfortable Call You’ll Ever Make</h2>
+			</div>
+			<div id="footer-menu" class="flex-align-center margin-left-auto">
+				<?php
+				wp_nav_menu(
+					array(
+						'name'        => 'Footer Menu',
+					)
+				);
+				?>
 			</div>
 		</div>
-		<div class="bottom-section">
-			<div class="section"> 
-			<div class="spacing">	
-			<h3>Tucson</h3>
-			<h6>4759 S Butterfield Dr<span>(520)-263-8275</span></h6> 
-			<h6>Tucson, AZ 85714<span>24 x 7 * 365</span></h6> 
-			<h3>Arizona License</h3>
-			<h5>AZROC: 749856. 836478, 92746, <br> 72645, 12536</h5>
-		    </div>
-            </div>
 
-			<div class="section">
-			<div class="spacing">
-			<h3>Albuquerque</h3>
-			<h6>3540 Pan America Freeway NE <span>(505)-257-6268</span></h6>
-            <h6>Suite E Albuquerque, NM 87107 <span>24 x 7 * 365</span></h6>
-			<h3>New Mexico License</h3>
-			<h6>401693</h6>
-		    </div>
-			<div class="section">
-				<img src="/wp-content/uploads/2023/07/facebook.png" alt="">
-				<img src="/wp-content/uploads/2023/07/facebook.png" alt="">
-				<img src="/wp-content/uploads/2023/07/facebook.png" alt="">
-				<img src="/wp-content/uploads/2023/07/facebook.png" alt="">
-			</div>
-		    </div>
-			</div>
-		</div> <!-- max -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+		<div id="footer_info">
+			<div class="footer_locations">
 
+				<div class="footer_location">
+					<div>
+						<h2 class="m-0 footer_city">Tucson</h2>
+					</div>
+					<div class="flex footer_address">
+						<p>4759 S Butterfield Dr <br> Tucson, AZ 85714</p>
+						<p><a href="tel:5202638275">(520)-263-8275 <br>24×7-365</p>
+					</div>
+					<div>
+						<p class="m-0">Arizona License</p>
+						<p class="m-0"> AZROC : 304276, 304277, 304707, 323982, 326103</p>
+					</div>
+				</div>
+				<div class="footer_location">
+					<div>
+						<h2 class="m-0 footer_city">Albuquerque</h2>
+					</div>
+					<div class="flex footer_address">
+						<p>3540 Pan American Freeway NE <br> Suite E Albuquerque, NM 87107 Tucson, AZ 85714</p>
+						<p><a href="tel:5052576268">(505)-257-6268 <br>24×7-365</p>
+					</div>
+					<div>
+						<p class="m-0">New Mexico License</p>
+						<p class="m-0"> 401693</p>
+					</div>
+				</div>
+			</div>
+			<div id="footer_socials">
+				<div class="flex gap-20">
+					<a href=""><i class="fa-brands fa-instagram"></i></a>
+					<a href=""><i class="fa-brands fa-facebook"></i></a>
+					<a href=""><i class="fa-brands fa-tiktok"></i></a>
+					<a href=""><i class="fa-brands fa-youtube"></i></a>
+				</div>
+				<h2>Open 24/7</h2>
+				<p class="m-0">Copyright © 2023 Strongbuilt</p>
+				<p class="m-0">Plumbing, Air, Solar, and Electric</p>
+			</div>
+		</div>
+	</div>
+	</footer><!-- #colophon -->    
+	</div> <!-- #page -->
 <?php wp_footer(); ?>
 
 </body>
