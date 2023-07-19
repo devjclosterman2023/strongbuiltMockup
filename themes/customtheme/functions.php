@@ -137,17 +137,20 @@ add_action( 'widgets_init', 'customtheme_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
-function customtheme_scripts() {
-	wp_enqueue_style( 'customtheme-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'customtheme-style', 'rtl', 'replace' );
+function test_scripts() {
+	wp_enqueue_style( 'test-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'font-awesome', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css", array(), _S_VERSION );
+	wp_style_add_data( 'test-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'customtheme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'test-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'test-meganav', get_template_directory_uri() . '/js/meganav.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'jquery', 'https://code.jquery.com/jquery-3.7.0.slim.min.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'customtheme_scripts' );
+add_action( 'wp_enqueue_scripts', 'test_scripts' );
 
 /**
  * Implement the Custom Header feature.
