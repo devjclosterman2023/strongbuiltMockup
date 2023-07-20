@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -6,10 +7,11 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package customTheme
+ * @package test
  */
 
 ?>
+
 
 <footer id="colophon" class="site-footer">
 	<div class="w-80">
@@ -20,13 +22,13 @@
 				<h2 class="font-40" id="footer-quote">The Most Comfortable Call You’ll Ever Make</h2>
 			</div>
 			<div id="footer-menu" class="flex-align-center margin-left-auto">
-				<?php
-				wp_nav_menu(
-					array(
-						'name'        => 'Footer Menu',
-					)
-				);
-				?>
+				<!-- <?php
+				// wp_nav_menu(
+				// 	array(
+				// 		'name'        => 'Footer Menu',
+				// 	)
+				// );
+				?> -->
 			</div>
 		</div>
 
@@ -73,9 +75,11 @@
 			</div>
 		</div>
 	</div>
-	</footer><!-- #colophon -->    
-	</div> <!-- #page -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+
 <?php wp_footer(); ?>
 
 </body>
+
 </html>
